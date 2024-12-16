@@ -119,7 +119,7 @@ export default function Projects() {
             <div className="card__info">
               <h4>Routing Test</h4>
               <p>
-              Routing for Testig
+              Routing for Testing
               </p>
             </div>
             <div className="card__links">

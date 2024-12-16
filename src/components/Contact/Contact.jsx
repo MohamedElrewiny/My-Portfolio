@@ -5,10 +5,24 @@ import toast from "react-hot-toast";
 
 export default function Contact() {
   function toastAlert(){
-    toast.success("Your message has been sent successfully", {
-      duration: 5000,
-      position: "top-center",
-    });
+    let name=document.getElementById('name').value;
+    let email=document.getElementById('email').value;
+    let message=document.getElementById('project').value;
+
+    if(!name||!email||!message){
+      toast.error('Please fill all the fields', {
+        duration: 5000,
+        position: "top-center",
+      })
+    }else{
+      toast.success("Your message has been sent successfully", {
+        duration: 5000,
+        position: "top-center",
+      });
+    }
+
+
+    
   }
 
   const form = useRef();
