@@ -74,7 +74,7 @@ export default function Contact() {
               <div className="contact__card">
                 <i className="bx bxl-messenger contact__card-icon"></i>
                 <h3 className="contact__card-title">Messenger</h3>
-                <span className="contact__card-data">user.fb123</span>
+                <span className="contact__card-data">Mohamed Morad</span>
                 <a
                   href="https://m.me/mohamed.elrewiny.357"
                   className="contact__button"

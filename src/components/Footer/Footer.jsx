@@ -59,16 +59,18 @@ export default function Footer() {
             </li>
 
             <li>
-              <a href="#services" className="footer__link">
-                Services
+              <a href="#projects" className="footer__link">
+                Projects
               </a>
             </li>
 
             <li>
-              <a href="#portfolio" className="footer__link">
-                Projects
+              <a href="#qualification" className="footer__link">
+              Qualification
               </a>
             </li>
+
+
           </ul>
 
           <span className="footer__copy">
