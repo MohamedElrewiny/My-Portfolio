@@ -148,7 +148,7 @@ export default function Projects() {
             </div>
             <div className="card__links">
               <div className="demo">
-                <a href="https://mohamedelrewiny.github.io/saqralmadina/" target="_blank">
+                <a href="https://saqralmadina.com/" target="_blank">
                   <i class="bx bx-link"></i> DEMO
                 </a>
               </div>
@@ -208,7 +208,7 @@ export default function Projects() {
             </div>
           </article>
 
-          <article className="card all html-css">
+          <article className="card all javascript">
             <div className="img__card">
               <img src={LacaseImg} alt="LacaseImg" />
             </div>
@@ -221,7 +221,7 @@ export default function Projects() {
             </div>
             <div className="card__links">
               <div className="demo">
-                <a href="https://mohamedelrewiny.github.io/Spanish-Ecommerce/" target="_blank">
+                <a href="https://lacasa-delosregalos.com/" target="_blank">
                   <i class="bx bx-link"></i> DEMO
                 </a>
               </div>
