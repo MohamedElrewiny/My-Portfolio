@@ -11,15 +11,6 @@ import rings from "../../Assets/css/2rings.PNG";
 import testReact from "../../Assets/react/task.PNG";
 import ecommerce from "../../Assets/react/e-commerce.PNG";
 
-
-
-
-
-
-
-
-
-
 export default function Projects() {
   const [btnActive, setbtnActive] = useState("all");
   let cards = document.querySelectorAll(".right__section .card");
@@ -88,48 +79,31 @@ export default function Projects() {
         </section>
 
         <section className="right__section grid">
-        <article className="card all react">
+          <article className="card all react">
             <div className="img__card">
               <img src={ecommerce} alt="ecommerce" />
             </div>
             <div className="card__info">
               <h4>Fresh Cart</h4>
               <p>
-              An E-commerce web application that allows users to browse, add to their cart, and purchase products seamlessly
+                An E-commerce web application that allows users to browse, add
+                to their cart, and purchase products seamlessly
               </p>
             </div>
             <div className="card__links">
               <div className="demo">
-                <a href="https://mohamedelrewiny.github.io/E-commerce-FreshCart/" target="_blank">
+                <a
+                  href="https://mohamedelrewiny.github.io/E-commerce-FreshCart/"
+                  target="_blank"
+                >
                   <i class="bx bx-link"></i> DEMO
                 </a>
               </div>
               <div className="repo">
-                <a href="https://github.com/MohamedElrewiny/E-commerce-FreshCart" target="_blank">
-                  <i class="bx bxl-github"></i> GitHub
-                </a>
-              </div>
-            </div>
-          </article>
-
-        <article className="card all react">
-            <div className="img__card">
-              <img src={testReact} alt="testReact" />
-            </div>
-            <div className="card__info">
-              <h4>Routing Test</h4>
-              <p>
-              Routing for Testing
-              </p>
-            </div>
-            <div className="card__links">
-              <div className="demo">
-                <a href="https://mohamedelrewiny.github.io/routingReactTask/#/home" target="_blank">
-                  <i class="bx bx-link"></i> DEMO
-                </a>
-              </div>
-              <div className="repo">
-                <a href="https://github.com/MohamedElrewiny/routingReactTask" target="_blank">
+                <a
+                  href="https://github.com/MohamedElrewiny/E-commerce-FreshCart"
+                  target="_blank"
+                >
                   <i class="bx bxl-github"></i> GitHub
                 </a>
               </div>
@@ -143,7 +117,8 @@ export default function Projects() {
             <div className="card__info">
               <h4>Saqralmadia</h4>
               <p>
-              A site for trips and transportation within the Kingdom of Saudi Arabia.
+                A site for trips and transportation within the Kingdom of Saudi
+                Arabia.
               </p>
             </div>
             <div className="card__links">
@@ -153,7 +128,37 @@ export default function Projects() {
                 </a>
               </div>
               <div className="repo">
-                <a href="https://github.com/MohamedElrewiny/saqralmadina?tab=readme-ov-file" target="_blank">
+                <a
+                  href="https://github.com/MohamedElrewiny/saqralmadina?tab=readme-ov-file"
+                  target="_blank"
+                >
+                  <i class="bx bxl-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article className="card all javascript">
+            <div className="img__card">
+              <img src={LacaseImg} alt="LacaseImg" />
+            </div>
+            <div className="card__info">
+              <h4>La case de los regalos</h4>
+              <p>
+                Spanish Commercial site selling perfumes, cosmetics and gifts
+              </p>
+            </div>
+            <div className="card__links">
+              <div className="demo">
+                <a href="https://lacasa-delosregalos.com/" target="_blank">
+                  <i class="bx bx-link"></i> DEMO
+                </a>
+              </div>
+              <div className="repo">
+                <a
+                  href="https://github.com/MohamedElrewiny/Spanish-Ecommerce?tab=readme-ov-file"
+                  target="_blank"
+                >
                   <i class="bx bxl-github"></i> GitHub
                 </a>
               </div>
@@ -166,18 +171,22 @@ export default function Projects() {
             </div>
             <div className="card__info">
               <h4>Yummy</h4>
-              <p>
-              display foods of different types, countries through its API
-              </p>
+              <p>display foods of different types, countries through its API</p>
             </div>
             <div className="card__links">
               <div className="demo">
-                <a href="https://mohamedelrewiny.github.io/Yummy/" target="_blank">
+                <a
+                  href="https://mohamedelrewiny.github.io/Yummy/"
+                  target="_blank"
+                >
                   <i class="bx bx-link"></i> DEMO
                 </a>
               </div>
               <div className="repo">
-                <a href="https://github.com/MohamedElrewiny/Yummy?tab=readme-ov-file" target="_blank">
+                <a
+                  href="https://github.com/MohamedElrewiny/Yummy?tab=readme-ov-file"
+                  target="_blank"
+                >
                   <i class="bx bxl-github"></i> GitHub
                 </a>
               </div>
@@ -191,67 +200,88 @@ export default function Projects() {
             <div className="card__info">
               <h4>The weather</h4>
               <p>
-              display the weather conditions in more than one place around the world
+                display the weather conditions in more than one place around the
+                world
               </p>
             </div>
             <div className="card__links">
               <div className="demo">
-                <a href="https://mohamedelrewiny.github.io/weather-/" target="_blank">
+                <a
+                  href="https://mohamedelrewiny.github.io/weather-/"
+                  target="_blank"
+                >
                   <i class="bx bx-link"></i> DEMO
                 </a>
               </div>
               <div className="repo">
-                <a href="https://github.com/MohamedElrewiny/weather-?tab=readme-ov-file" target="_blank">
+                <a
+                  href="https://github.com/MohamedElrewiny/weather-?tab=readme-ov-file"
+                  target="_blank"
+                >
                   <i class="bx bxl-github"></i> GitHub
                 </a>
               </div>
             </div>
           </article>
 
-          <article className="card all javascript">
+          <article className="card all react">
             <div className="img__card">
-              <img src={LacaseImg} alt="LacaseImg" />
+              <img src={testReact} alt="testReact" />
             </div>
             <div className="card__info">
-              <h4>La case de los regalos
-              </h4>
-              <p>
-              Spanish Commercial site selling perfumes, cosmetics and gifts
-              </p>
+              <h4>Routing Test</h4>
+              <p>Routing for Testing</p>
             </div>
             <div className="card__links">
               <div className="demo">
-                <a href="https://lacasa-delosregalos.com/" target="_blank">
+                <a
+                  href="https://mohamedelrewiny.github.io/routingReactTask/#/home"
+                  target="_blank"
+                >
                   <i class="bx bx-link"></i> DEMO
                 </a>
               </div>
               <div className="repo">
-                <a href="https://github.com/MohamedElrewiny/Spanish-Ecommerce?tab=readme-ov-file" target="_blank">
+                <a
+                  href="https://github.com/MohamedElrewiny/routingReactTask"
+                  target="_blank"
+                >
                   <i class="bx bxl-github"></i> GitHub
                 </a>
               </div>
             </div>
           </article>
+
+
+
+
+
+
+
+
 
           <article className="card all html-css">
             <div className="img__card">
               <img src={specialDesign} alt="specialDesign" />
             </div>
             <div className="card__info">
-              <h4>Special Design
-              </h4>
-              <p>
-              Special Design for Testing
-              </p>
+              <h4>Special Design</h4>
+              <p>Special Design for Testing</p>
             </div>
             <div className="card__links">
               <div className="demo">
-                <a href="https://mohamedelrewiny.github.io/special-design/" target="_blank">
+                <a
+                  href="https://mohamedelrewiny.github.io/special-design/"
+                  target="_blank"
+                >
                   <i class="bx bx-link"></i> DEMO
                 </a>
               </div>
               <div className="repo">
-                <a href="https://github.com/MohamedElrewiny/special-design?tab=readme-ov-file" target="_blank">
+                <a
+                  href="https://github.com/MohamedElrewiny/special-design?tab=readme-ov-file"
+                  target="_blank"
+                >
                   <i class="bx bxl-github"></i> GitHub
                 </a>
               </div>
@@ -263,20 +293,23 @@ export default function Projects() {
               <img src={Gymster} alt="Gymster" />
             </div>
             <div className="card__info">
-              <h4>Gymster
-              </h4>
-              <p>
-              Gymster for Testing
-              </p>
+              <h4>Gymster</h4>
+              <p>Gymster for Testing</p>
             </div>
             <div className="card__links">
               <div className="demo">
-                <a href="https://mohamedelrewiny.github.io/GYMSTER/" target="_blank">
+                <a
+                  href="https://mohamedelrewiny.github.io/GYMSTER/"
+                  target="_blank"
+                >
                   <i class="bx bx-link"></i> DEMO
                 </a>
               </div>
               <div className="repo">
-                <a href="https://github.com/MohamedElrewiny/GYMSTER?tab=readme-ov-file" target="_blank">
+                <a
+                  href="https://github.com/MohamedElrewiny/GYMSTER?tab=readme-ov-file"
+                  target="_blank"
+                >
                   <i class="bx bxl-github"></i> GitHub
                 </a>
               </div>
@@ -288,20 +321,23 @@ export default function Projects() {
               <img src={cafeHouse} alt="cafeHouse" />
             </div>
             <div className="card__info">
-              <h4>cafeHouse
-              </h4>
-              <p>
-              cafeHouse for Testing
-              </p>
+              <h4>cafeHouse</h4>
+              <p>cafeHouse for Testing</p>
             </div>
             <div className="card__links">
               <div className="demo">
-                <a href="https://mohamedelrewiny.github.io/Cafe-/" target="_blank">
+                <a
+                  href="https://mohamedelrewiny.github.io/Cafe-/"
+                  target="_blank"
+                >
                   <i class="bx bx-link"></i> DEMO
                 </a>
               </div>
               <div className="repo">
-                <a href="https://github.com/MohamedElrewiny/Cafe-?tab=readme-ov-file" target="_blank">
+                <a
+                  href="https://github.com/MohamedElrewiny/Cafe-?tab=readme-ov-file"
+                  target="_blank"
+                >
                   <i class="bx bxl-github"></i> GitHub
                 </a>
               </div>
@@ -313,20 +349,23 @@ export default function Projects() {
               <img src={rings} alt="2rings" />
             </div>
             <div className="card__info">
-              <h4>2rings
-              </h4>
-              <p>
-              2rings for Testing
-              </p>
+              <h4>2rings</h4>
+              <p>2rings for Testing</p>
             </div>
             <div className="card__links">
               <div className="demo">
-                <a href="https://mohamedelrewiny.github.io/2Rings/" target="_blank">
+                <a
+                  href="https://mohamedelrewiny.github.io/2Rings/"
+                  target="_blank"
+                >
                   <i class="bx bx-link"></i> DEMO
                 </a>
               </div>
               <div className="repo">
-                <a href="https://github.com/MohamedElrewiny/2Rings?tab=readme-ov-file" target="_blank">
+                <a
+                  href="https://github.com/MohamedElrewiny/2Rings?tab=readme-ov-file"
+                  target="_blank"
+                >
                   <i class="bx bxl-github"></i> GitHub
                 </a>
               </div>

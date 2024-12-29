@@ -37,7 +37,7 @@ export default function Frontend() {
               <div class="skill-box">
                 <div class="skills-name">HTML5</div>
                 <div class="skill-progress">
-                  <span data-progress="90%">90%</span>
+                  <span data-progress="95%">95%</span>
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ export default function Frontend() {
               <div class="skill-box">
                 <div class="skills-name">CSS3</div>
                 <div class="skill-progress">
-                  <span data-progress="90%">90%</span>
+                  <span data-progress="95%">95%</span>
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@ export default function Frontend() {
               <div class="skill-box">
                 <div class="skills-name">SASS</div>
                 <div class="skill-progress">
-                  <span data-progress="70%">70%</span>
+                  <span data-progress="85%">85%</span>
                 </div>
               </div>
             </div>
@@ -67,7 +67,7 @@ export default function Frontend() {
               <div class="skill-box">
                 <div class="skills-name">Bootstrap</div>
                 <div class="skill-progress">
-                  <span data-progress="85%">85%</span>
+                  <span data-progress="90%">90%</span>
                 </div>
               </div>
             </div>
@@ -77,7 +77,7 @@ export default function Frontend() {
               <div class="skill-box">
                 <div class="skills-name">Tailwind</div>
                 <div class="skill-progress">
-                  <span data-progress="75%">75%</span>
+                  <span data-progress="80%">80%</span>
                 </div>
               </div>
             </div>
@@ -89,7 +89,7 @@ export default function Frontend() {
               <div class="skill-box">
                 <div class="skills-name">JavaScript</div>
                 <div class="skill-progress">
-                  <span data-progress="80%">80%</span>
+                  <span data-progress="85%">85%</span>
                 </div>
               </div>
             </div>
@@ -99,7 +99,7 @@ export default function Frontend() {
               <div class="skill-box">
                 <div class="skills-name">TypeScript</div>
                 <div class="skill-progress">
-                  <span data-progress="60%">60%</span>
+                  <span data-progress="75%">75%</span>
                 </div>
               </div>
             </div>
@@ -109,7 +109,7 @@ export default function Frontend() {
               <div class="skill-box">
                 <div class="skills-name">Next.JS</div>
                 <div class="skill-progress">
-                  <span data-progress="60%">60%</span>
+                  <span data-progress="80%">80%</span>
                 </div>
               </div>
             </div>
@@ -119,7 +119,7 @@ export default function Frontend() {
               <div class="skill-box">
                 <div class="skills-name">jQuery</div>
                 <div class="skill-progress">
-                  <span data-progress="75%">75%</span>
+                  <span data-progress="80%">80%</span>
                 </div>
               </div>
             </div>
@@ -129,7 +129,7 @@ export default function Frontend() {
               <div class="skill-box">
                 <div class="skills-name">React</div>
                 <div class="skill-progress">
-                  <span data-progress="80%">80%</span>
+                  <span data-progress="85%">85%</span>
                 </div>
               </div>
             </div>
