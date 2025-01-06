@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.110d6827.css",
-    "main.js": "/My-Portfolio/static/js/main.f1377081.js",
+    "main.js": "/My-Portfolio/static/js/main.adb13baf.js",
     "static/js/453.195b869a.chunk.js": "/My-Portfolio/static/js/453.195b869a.chunk.js",
     "static/media/yummy.PNG": "/My-Portfolio/static/media/yummy.4fb3c4ed9a47d891366f.PNG",
     "static/media/cafe.PNG": "/My-Portfolio/static/media/cafe.66e490402bc601929ee1.PNG",
@@ -11,18 +11,18 @@
     "static/media/gymster.PNG": "/My-Portfolio/static/media/gymster.4afbfeb5a5f8a79d971a.PNG",
     "static/media/spanish.PNG": "/My-Portfolio/static/media/spanish.3c049049432867603172.PNG",
     "static/media/saqr.PNG": "/My-Portfolio/static/media/saqr.275727eb684cac065b9d.PNG",
-    "static/media/My CV.pdf": "/My-Portfolio/static/media/My CV.9cc4161e16b6b7bfd248.pdf",
+    "static/media/My CV.pdf": "/My-Portfolio/static/media/My CV.1412b75c9bb42793419b.pdf",
     "static/media/MYIMG.jpg": "/My-Portfolio/static/media/MYIMG.5c5dafb1c8d9c928fe46.jpg",
     "static/media/weather.PNG": "/My-Portfolio/static/media/weather.df984d94693aefee8c32.PNG",
     "static/media/task.PNG": "/My-Portfolio/static/media/task.dbee922c96b2392d587d.PNG",
     "static/media/Logo.PNG": "/My-Portfolio/static/media/Logo.05833edae0b14d4141e2.PNG",
     "index.html": "/My-Portfolio/index.html",
     "main.110d6827.css.map": "/My-Portfolio/static/css/main.110d6827.css.map",
-    "main.f1377081.js.map": "/My-Portfolio/static/js/main.f1377081.js.map",
+    "main.adb13baf.js.map": "/My-Portfolio/static/js/main.adb13baf.js.map",
     "453.195b869a.chunk.js.map": "/My-Portfolio/static/js/453.195b869a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.110d6827.css",
-    "static/js/main.f1377081.js"
+    "static/js/main.adb13baf.js"
   ]
 }
