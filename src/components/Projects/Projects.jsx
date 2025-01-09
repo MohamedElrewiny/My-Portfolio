@@ -10,6 +10,8 @@ import cafeHouse from "../../Assets/css/cafe.PNG";
 import rings from "../../Assets/css/2rings.PNG";
 import testReact from "../../Assets/react/task.PNG";
 import ecommerce from "../../Assets/react/e-commerce.PNG";
+import Quiz from "../../Assets/js/quiz.PNG";
+
 
 export default function Projects() {
   const [btnActive, setbtnActive] = useState("all");
@@ -216,6 +218,36 @@ export default function Projects() {
               <div className="repo">
                 <a
                   href="https://github.com/MohamedElrewiny/weather-?tab=readme-ov-file"
+                  target="_blank"
+                >
+                  <i class="bx bxl-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article className="card all javascript">
+            <div className="img__card">
+              <img src={Quiz} alt="QuizIMG" />
+            </div>
+            <div className="card__info">
+              <h4>Quiz App</h4>
+              <p>
+              Electronic questions system (tests) at a specific time and at the end the result is displayed
+              </p>
+            </div>
+            <div className="card__links">
+              <div className="demo">
+                <a
+                  href="https://mohamedelrewiny.github.io/Quiz-App/"
+                  target="_blank"
+                >
+                  <i class="bx bx-link"></i> DEMO
+                </a>
+              </div>
+              <div className="repo">
+                <a
+                  href="https://github.com/MohamedElrewiny/Quiz-App?tab=readme-ov-file"
                   target="_blank"
                 >
                   <i class="bx bxl-github"></i> GitHub
