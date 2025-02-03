@@ -70,11 +70,11 @@ export default function Header() {
               </a>
             </li>
 
-            <li className={`nav__item ${activeLink === 'portfolio' ? 'active' : ''}`}>
+            {/* <li className={`nav__item ${activeLink === 'portfolio' ? 'active' : ''}`}>
               <a href="#portfolio" className="nav__link">
                 <i className="uil uil-scenery nav__icon"></i> Portfolio
               </a>
-            </li>
+            </li> */}
 
             <li className={`nav__item ${activeLink === 'contact' ? 'active' : ''}`}>
               <a href="#contact" className="nav__link">
