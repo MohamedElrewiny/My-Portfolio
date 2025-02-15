@@ -117,7 +117,7 @@ export default function Projects() {
               <img src={saqrImg} alt="saqrImg" />
             </div>
             <div className="card__info">
-              <h4>Saqralmadia</h4>
+              <h4>Saqralmadina</h4>
               <p>
                 A site for trips and transportation within the Kingdom of Saudi
                 Arabia.
