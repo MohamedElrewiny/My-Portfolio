@@ -11,6 +11,8 @@ import rings from "../../Assets/css/2rings.PNG";
 import testReact from "../../Assets/react/task.PNG";
 import ecommerce from "../../Assets/react/e-commerce.PNG";
 import Quiz from "../../Assets/js/quiz.PNG";
+import portfolio from '../../Assets/react/portfolio.png'
+import cupTea from '../../Assets/css/cup-tea.png'
 
 
 export default function Projects() {
@@ -95,7 +97,7 @@ export default function Projects() {
             <div className="card__links">
               <div className="demo">
                 <a
-                  href="https://mohamedelrewiny.github.io/E-commerce-FreshCart/"
+                  href="https://mohamedelrewiny.github.io/Fresh-Cart/"
                   target="_blank"
                 >
                   <i class="bx bx-link"></i> DEMO
@@ -103,7 +105,37 @@ export default function Projects() {
               </div>
               <div className="repo">
                 <a
-                  href="https://github.com/MohamedElrewiny/E-commerce-FreshCart"
+                  href="https://github.com/MohamedElrewiny/Fresh-Cart"
+                  target="_blank"
+                >
+                  <i class="bx bxl-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article className="card all react">
+            <div className="img__card">
+              <img src={portfolio} alt="portfolio" />
+            </div>
+            <div className="card__info">
+              <h4>My Portfolio</h4>
+              <p>
+              My Portfolio that contains my projects, personal information for communication
+              </p>
+            </div>
+            <div className="card__links">
+              <div className="demo">
+                <a
+                  href="https://mohamedelrewiny.github.io/My-Portfolio/"
+                  target="_blank"
+                >
+                  <i class="bx bx-link"></i> DEMO
+                </a>
+              </div>
+              <div className="repo">
+                <a
+                  href="https://github.com/MohamedElrewiny/My-Portfolio"
                   target="_blank"
                 >
                   <i class="bx bxl-github"></i> GitHub
@@ -312,6 +344,34 @@ export default function Projects() {
               <div className="repo">
                 <a
                   href="https://github.com/MohamedElrewiny/special-design?tab=readme-ov-file"
+                  target="_blank"
+                >
+                  <i class="bx bxl-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article className="card all html-css">
+            <div className="img__card">
+              <img src={cupTea} alt="cupTea" />
+            </div>
+            <div className="card__info">
+              <h4>cup-of-Tea-Animation</h4>
+              <p>Animated Hot Cup of Tea using Html & CSS only | CSS Animation Effects</p>
+            </div>
+            <div className="card__links">
+              <div className="demo">
+                <a
+                  href="https://mohamedelrewiny.github.io/cup-of-Tea-Animation/"
+                  target="_blank"
+                >
+                  <i class="bx bx-link"></i> DEMO
+                </a>
+              </div>
+              <div className="repo">
+                <a
+                  href="https://github.com/MohamedElrewiny/cup-of-Tea-Animation"
                   target="_blank"
                 >
                   <i class="bx bxl-github"></i> GitHub

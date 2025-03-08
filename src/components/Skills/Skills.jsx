@@ -1,6 +1,6 @@
 import React from 'react';
 import Frontend from './Frontend';
-import Backend from './Backend';
+// import Backend from './Backend';
 import './Skills.css';
 
 export default function Skills() {
