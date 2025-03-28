@@ -11,9 +11,9 @@ import rings from "../../Assets/css/2rings.PNG";
 import testReact from "../../Assets/react/task.PNG";
 import ecommerce from "../../Assets/react/e-commerce.PNG";
 import Quiz from "../../Assets/js/quiz.PNG";
-import portfolio from '../../Assets/react/portfolio.png'
-import cupTea from '../../Assets/css/cup-tea.png'
-
+import portfolio from "../../Assets/react/portfolio.png";
+import cupTea from "../../Assets/css/cup-tea.png";
+import vehex from "../../Assets/react/vehex.png"
 
 export default function Projects() {
   const [btnActive, setbtnActive] = useState("all");
@@ -121,7 +121,8 @@ export default function Projects() {
             <div className="card__info">
               <h4>My Portfolio</h4>
               <p>
-              My Portfolio that contains my projects, personal information for communication
+                My Portfolio that contains my projects, personal information for
+                communication
               </p>
             </div>
             <div className="card__links">
@@ -136,6 +137,36 @@ export default function Projects() {
               <div className="repo">
                 <a
                   href="https://github.com/MohamedElrewiny/My-Portfolio"
+                  target="_blank"
+                >
+                  <i class="bx bxl-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article className="card all react">
+            <div className="img__card">
+              <img src={vehex} alt="vehex" />
+            </div>
+            <div className="card__info">
+              <h4>VEHEX</h4>
+              <p>
+              Auto parts website, car maintenance and oil change for most car brands.
+              </p>
+            </div>
+            <div className="card__links">
+              <div className="demo">
+                <a
+                  href="https://mohamedelrewiny.github.io/VEHEX/"
+                  target="_blank"
+                >
+                  <i class="bx bx-link"></i> DEMO
+                </a>
+              </div>
+              <div className="repo">
+                <a
+                  href="https://github.com/MohamedElrewiny/VEHEX"
                   target="_blank"
                 >
                   <i class="bx bxl-github"></i> GitHub
@@ -265,7 +296,8 @@ export default function Projects() {
             <div className="card__info">
               <h4>Quiz App</h4>
               <p>
-              Electronic questions system (tests) at a specific time and at the end the result is displayed
+                Electronic questions system (tests) at a specific time and at
+                the end the result is displayed
               </p>
             </div>
             <div className="card__links">
@@ -316,14 +348,6 @@ export default function Projects() {
             </div>
           </article>
 
-
-
-
-
-
-
-
-
           <article className="card all html-css">
             <div className="img__card">
               <img src={specialDesign} alt="specialDesign" />
@@ -358,7 +382,10 @@ export default function Projects() {
             </div>
             <div className="card__info">
               <h4>cup-of-Tea-Animation</h4>
-              <p>Animated Hot Cup of Tea using Html & CSS only | CSS Animation Effects</p>
+              <p>
+                Animated Hot Cup of Tea using Html & CSS only | CSS Animation
+                Effects
+              </p>
             </div>
             <div className="card__links">
               <div className="demo">

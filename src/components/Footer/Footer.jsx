@@ -75,7 +75,7 @@ export default function Footer() {
 
           <span className="footer__copy">
             Copyright &#169; 2024. All rigths reserved by{" "}
-            <a className="footer__copy-name" href="https://wa.me/+201033293239">
+            <a className="footer__copy-name" href="https://wa.me/+9660570034062">
               Mohamed Morad
             </a>{" "}
           </span>

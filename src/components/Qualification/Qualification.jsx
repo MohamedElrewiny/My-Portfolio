@@ -128,6 +128,25 @@ export default function Qualification() {
                   : "qualification__content"
               }
             >
+                            <div className="qualification__data">
+                <div></div>
+
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 className="qualification__title">Ultra-Progress</h3>
+                  <span className="qualification__subtitle">
+                    FrontEnd Remotly
+                  </span>
+                  <div className="qualification__calendar">
+                    <i className="uil uil-calendar-alt"></i>Mar 2025 - present
+                  </div>
+                </div>
+              </div>
+
               <div className="qualification__data">
                 <div>
                   <h3 className="qualification__title">IT.RENADMADI</h3>
@@ -135,7 +154,7 @@ export default function Qualification() {
                     FrontEnd Remotly
                   </span>
                   <div className="qualification__calendar">
-                    <i className="uil uil-calendar-alt"></i> Jun 2024 - present
+                    <i className="uil uil-calendar-alt"></i> Jun 2024 - Dec 2024
                   </div>
                 </div>
 
