@@ -21,7 +21,7 @@ export default function Qualification() {
                   ? "qualification__button qualification__active button--flex"
                   : "qualification__button button--flex"
               }
-              onClick={()=>toggleTap(1)}
+              onClick={() => toggleTap(1)}
             >
               <i className="uil uil-graduation-cap qualification__icon"></i>
               Education
@@ -33,7 +33,7 @@ export default function Qualification() {
                   ? "qualification__button qualification__active button--flex"
                   : "qualification__button button--flex"
               }
-              onClick={()=>toggleTap(2)}
+              onClick={() => toggleTap(2)}
             >
               <i className="uil uil-briefcase-alt qualification__icon"></i>
               Experience
@@ -50,12 +50,16 @@ export default function Qualification() {
             >
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualification__title">Bachelor's Degree in Information Technologies </h3>
+                  <h3 className="qualification__title">
+                    Bachelor's Degree in Information Technologies{" "}
+                  </h3>
                   <span className="qualification__subtitle">
-                  Kafr-Elsheikh University / Faculty of Computers and Information
+                    Kafr-Elsheikh University / Faculty of Computers and
+                    Information
                   </span>
                   <div className="qualification__calendar">
-                    <i className="uil uil-calendar-alt"></i> Sept 2018 - Jun 2022
+                    <i className="uil uil-calendar-alt"></i> Sept 2018 - Jun
+                    2022
                   </div>
                 </div>
 
@@ -74,12 +78,15 @@ export default function Qualification() {
                 </div>
 
                 <div>
-                  <h3 className="qualification__title">Information Technology Institute (ITI)</h3>
+                  <h3 className="qualification__title">
+                    Information Technology Institute (ITI)
+                  </h3>
                   <span className="qualification__subtitle">
-                  Training program in cyber-security
+                    Training program in cyber-security
                   </span>
                   <div className="qualification__calendar">
-                    <i className="uil uil-calendar-alt"></i> Jul 2021 - Sept 2021
+                    <i className="uil uil-calendar-alt"></i> Jul 2021 - Sept
+                    2021
                   </div>
                 </div>
               </div>
@@ -88,7 +95,7 @@ export default function Qualification() {
                 <div>
                   <h3 className="qualification__title">RMS</h3>
                   <span className="qualification__subtitle">
-                  Full Stack Development Internship
+                    Full Stack Development Internship
                   </span>
                   <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt"></i> Aug 2020 - Jul 2021
@@ -128,7 +135,24 @@ export default function Qualification() {
                   : "qualification__content"
               }
             >
-                            <div className="qualification__data">
+              <div className="qualification__data">
+                <div>
+                  <h3 className="qualification__title">Digital Elmosaned </h3>
+                  <span className="qualification__subtitle">
+                    FrontEnd(Next JS) - On site
+                  </span>
+                  <div className="qualification__calendar">
+                    <i className="uil uil-calendar-alt"></i> Mar 2025 - present
+                  </div>
+                </div>
+
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
+                </div>
+              </div>
+
+              <div className="qualification__data">
                 <div></div>
 
                 <div>
@@ -139,10 +163,10 @@ export default function Qualification() {
                 <div>
                   <h3 className="qualification__title">Ultra-Progress</h3>
                   <span className="qualification__subtitle">
-                    FrontEnd Remotly
+                    FrontEnd - Remotly
                   </span>
                   <div className="qualification__calendar">
-                    <i className="uil uil-calendar-alt"></i>Mar 2025 - present
+                    <i className="uil uil-calendar-alt"></i> Mar 2025 - present
                   </div>
                 </div>
               </div>
@@ -151,7 +175,7 @@ export default function Qualification() {
                 <div>
                   <h3 className="qualification__title">IT.RENADMADI</h3>
                   <span className="qualification__subtitle">
-                    FrontEnd Remotly
+                    FrontEnd - Remotly
                   </span>
                   <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt"></i> Jun 2024 - Dec 2024
@@ -175,7 +199,7 @@ export default function Qualification() {
                 <div>
                   <h3 className="qualification__title">Ultra-Progress</h3>
                   <span className="qualification__subtitle">
-                    FrontEnd Remotly
+                    FrontEnd - Remotly
                   </span>
                   <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt"></i>Mar 2024 - Jun 2024

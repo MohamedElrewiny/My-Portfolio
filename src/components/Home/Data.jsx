@@ -5,7 +5,7 @@ export default function Data() {
     <>
       <div className="home__data">
         <h1 className="home__title">
-          Mohamed Attia
+          Mohamed Morad
           <svg
             width="36"
             height="36"
@@ -58,7 +58,7 @@ export default function Data() {
         </h1>
         <h3 className="home__subtitle">Front-End Developer (React, Next js)</h3>
         <p className="home__description">
-          I am a creative front-end developer (React, Next js) based in Saudi Arabia, Riyadh. I
+          I am a creative front-end developer (React, Next js) based in Saudi Arabia, AL-Madinah. I
           am very passionate and dedicated to my work. I will be very happy to
           work with you.
         </p>

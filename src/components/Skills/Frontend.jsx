@@ -57,7 +57,7 @@ export default function Frontend() {
               <div class="skill-box">
                 <div class="skills-name">SASS</div>
                 <div class="skill-progress">
-                  <span data-progress="85%">85%</span>
+                  <span data-progress="80%">80%</span>
                 </div>
               </div>
             </div>
@@ -67,7 +67,7 @@ export default function Frontend() {
               <div class="skill-box">
                 <div class="skills-name">Bootstrap</div>
                 <div class="skill-progress">
-                  <span data-progress="90%">90%</span>
+                  <span data-progress="95%">95%</span>
                 </div>
               </div>
             </div>
@@ -77,7 +77,7 @@ export default function Frontend() {
               <div class="skill-box">
                 <div class="skills-name">Tailwind</div>
                 <div class="skill-progress">
-                  <span data-progress="90%">90%</span>
+                  <span data-progress="95%">95%</span>
                 </div>
               </div>
             </div>
@@ -97,6 +97,16 @@ export default function Frontend() {
             <div className="skills__data">
               <i className="bx bx-badge-check"></i>
               <div class="skill-box">
+                <div class="skills-name">jQuery</div>
+                <div class="skill-progress">
+                  <span data-progress="80%">80%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="skills__data">
+              <i className="bx bx-badge-check"></i>
+              <div class="skill-box">
                 <div class="skills-name">TypeScript</div>
                 <div class="skill-progress">
                   <span data-progress="80%">80%</span>
@@ -109,17 +119,7 @@ export default function Frontend() {
               <div class="skill-box">
                 <div class="skills-name">Next.JS</div>
                 <div class="skill-progress">
-                  <span data-progress="85%">85%</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="skills__data">
-              <i className="bx bx-badge-check"></i>
-              <div class="skill-box">
-                <div class="skills-name">jQuery</div>
-                <div class="skill-progress">
-                  <span data-progress="80%">80%</span>
+                  <span data-progress="90%">90%</span>
                 </div>
               </div>
             </div>
