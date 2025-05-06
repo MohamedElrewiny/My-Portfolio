@@ -137,7 +137,7 @@ export default function Qualification() {
             >
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualification__title">Digital Elmosaned </h3>
+                  <h3 className="qualification__title"> Al-musanid Tech</h3>
                   <span className="qualification__subtitle">
                     FrontEnd(Next JS) - On site
                   </span>
