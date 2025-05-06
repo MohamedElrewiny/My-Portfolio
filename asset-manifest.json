@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.368351c9.css",
-    "main.js": "/My-Portfolio/static/js/main.716b0379.js",
+    "main.js": "/My-Portfolio/static/js/main.4d92e87e.js",
     "static/js/453.195b869a.chunk.js": "/My-Portfolio/static/js/453.195b869a.chunk.js",
     "static/media/yummy.PNG": "/My-Portfolio/static/media/yummy.4fb3c4ed9a47d891366f.PNG",
     "static/media/cafe.PNG": "/My-Portfolio/static/media/cafe.66e490402bc601929ee1.PNG",
@@ -12,7 +12,7 @@
     "static/media/vehex.png": "/My-Portfolio/static/media/vehex.61308dc09dcd75357271.png",
     "static/media/spanish.PNG": "/My-Portfolio/static/media/spanish.3c049049432867603172.PNG",
     "static/media/saqr.PNG": "/My-Portfolio/static/media/saqr.275727eb684cac065b9d.PNG",
-    "static/media/myCV.pdf": "/My-Portfolio/static/media/myCV.6bb6ee56cba3c70d5557.pdf",
+    "static/media/myCV.pdf": "/My-Portfolio/static/media/myCV.549c8a9dc1b3d6e1b150.pdf",
     "static/media/portfolio.png": "/My-Portfolio/static/media/portfolio.783517cc0f420f6472f5.png",
     "static/media/cup-tea.png": "/My-Portfolio/static/media/cup-tea.dca23c84a63f47f6a6cf.png",
     "static/media/MYIMG.jpg": "/My-Portfolio/static/media/MYIMG.5c5dafb1c8d9c928fe46.jpg",
@@ -22,11 +22,11 @@
     "static/media/Logo.PNG": "/My-Portfolio/static/media/Logo.05833edae0b14d4141e2.PNG",
     "index.html": "/My-Portfolio/index.html",
     "main.368351c9.css.map": "/My-Portfolio/static/css/main.368351c9.css.map",
-    "main.716b0379.js.map": "/My-Portfolio/static/js/main.716b0379.js.map",
+    "main.4d92e87e.js.map": "/My-Portfolio/static/js/main.4d92e87e.js.map",
     "453.195b869a.chunk.js.map": "/My-Portfolio/static/js/453.195b869a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.368351c9.css",
-    "static/js/main.716b0379.js"
+    "static/js/main.4d92e87e.js"
   ]
 }
